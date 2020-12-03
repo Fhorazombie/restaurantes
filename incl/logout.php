@@ -1,0 +1,1 @@
+<?php	/*Inicia una sesion  */  session_start();    /* Borra los datos creados en session*/    session_unset();    /*elimina la sesion*/    session_destroy();    /*Se redirige al inicio */   header("location:../");?>
